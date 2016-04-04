@@ -1,0 +1,22 @@
+{
+  "name": "ng-feathers",
+  "description": "Feathers client for AngularJS",
+  "main": "index.js",
+  "authors": [
+    "Maik Hummel <m@ikhummel.com> (https://beevelop.com)"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "https://beevelop.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "feathers-client": "^1.1.0",
+    "socket.io-client": "^1.4.5"
+  }
+}
