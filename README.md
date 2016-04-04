@@ -12,11 +12,51 @@
 
 > [FeatherJS](http://feathersjs.com/) for plain old [AngularJS](https://angularjs.org/) (1.X)
 
+## Installation
+
+### Install via Bower:
+```bash
+bower install --save ng-feathers
+```
+
+#### Add standalone version (dependencies included) to your HTML file
+```html
+<script src="bower_components/ng-feathers/dist/ng-feathers.standalone.min.js"></script>
+```
+
+#### Or add Socket.io + Feathers-Client + (minified) ngFeathers individually:
+```html
+<script src="bower_components/socket.io-client/socket.io.js"></script>
+<script src="bower_components/feathers-client/dist/feathers.js"></script>
+<script src="bower_components/ng-feathers/dist/ng-feathers.min.js"></script>
+```
+----
+
+### Install via npm:
+```bash
+npm install --save ng-feathers
+```
+
+#### Add standalone version (dependencies included) to your HTML file
+```html
+<script src="node_modules/ng-feathers/dist/ng-feathers.standalone.min.js"></script>
+```
+
+#### Or add Socket.io + Feathers-Client + (minified) ngFeathers individually:
+```html
+
+<script src="node_modules/socket.io-client/socket.io.js"></script>
+<script src="node_modules/feathers-client/dist/feathers.js"></script>
+<script src="node_modules/ng-feathers/dist/ng-feathers.min.js"></script>
+```
+----
+
+
 ### REST
 - REST requires jQuery as it depends on jQuery's AJAX implementation
 
-### Example using Socket.io
-```
+## Usage (with Socket.io)
+```js
 // Add ngFeathers as dependency
 angular.module('myApp', ['ngFeathers'])
 
