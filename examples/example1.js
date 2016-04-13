@@ -1,6 +1,9 @@
 window.angular.module('ngFeathers.example1', ['ngFeathers'])
   .config(function ($feathersProvider) {
-    $feathersProvider.setEndpoint('http://localhost:3030/')
+    $feathersProvider.setSocketOpts({
+      path: '/ws/'
+    })
+    $feathersProvider.setEndpoint('http://localhost:3030')
   })
   .controller('app', function ($feathers) {
     var userService = $feathers.service('users')

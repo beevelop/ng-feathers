@@ -1,7 +1,7 @@
 /**
  * ngFeathers
  *
- * @version 0.0.2
+ * @version 0.0.3
  * @author Maik Hummel <m@ikhummel.com>
  * @license MIT
  */
@@ -14,12 +14,16 @@ angular
   .provider('$feathers', [
     function () {
       var endpoint = null
+      var socketOpts = null
       var useSocket = true
       var authStorage = window.localStorage
 
       return {
         setAuthStorage: function (newAuthStorage) {
           authStorage = newAuthStorage
+        },
+        setSocketOpts: function (opts) {
+          socketOpts = opts
         },
         useSocket: function (socketEnabled) {
           useSocket = !!socketEnabled
@@ -33,7 +37,7 @@ angular
               .configure(feathers.hooks())
 
             if (useSocket) {
-              this.socket = io(endpoint)
+              this.socket = io(endpoint, socketOpts)
               this.app.configure(feathers.socketio(this.socket))
             } else {
               this.app.configure(feathers.rest(endpoint).jquery(window.jQuery))
