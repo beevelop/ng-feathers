@@ -93,3 +93,12 @@ angular.module('myApp', ['ngFeathers'])
     })
   })
 ```
+
+## Service-Functions (stolen from the official [FeatherJS Docs](https://github.com/feathersjs/feathers-docs/blob/master/clients/vanilla-rest.md))
+- `find({query: {attr: 'value'}})`: Retrieves a list of all matching resources from the service
+- `get(id, {query: {fetch: 'all'}})`: Retrieve a single resource from the service.
+- `create({"text": "Example"})`: Create a new resource with data which may also be an array.
+- `update(id, {"text": "Example"})`: Completely replace a single or multiple resources.
+  + > ProTip: update is normally expected to replace an entire resource which is why the database adapters only support patch for multiple records.
+- `patch(id, {"text": "Example"})`: Merge the existing data of a single or multiple resources with the new data.
+- `remove(id)`: Remove a single or multiple resources:
