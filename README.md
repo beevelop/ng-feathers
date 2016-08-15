@@ -1,9 +1,9 @@
-[![npm](https://img.shields.io/npm/v/ng-feathers.svg?style=flat-square)](https://www.npmjs.com/package/ng-feathers)
-[![Bower](https://img.shields.io/bower/v/ng-feathers.svg?style=flat-square)](#bower)
-[![Travis](https://img.shields.io/travis/beevelop/ng-feathers.svg?style=flat-square)](https://travis-ci.org/beevelop/ng-feathers)
-[![Code Climate](https://img.shields.io/codeclimate/github/beevelop/ng-feathers.svg?style=flat-square)](https://codeclimate.com/github/beevelop/ng-feathers)
-[![Gemnasium](https://img.shields.io/gemnasium/beevelop/ng-feathers.svg?style=flat-square)](https://gemnasium.com/beevelop/ng-feathers)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
+[![npm](https://shields.beevelop.com/npm/v/ng-feathers.svg?style=flat-square)](https://www.npmjs.com/package/ng-feathers)
+[![Bower](https://shields.beevelop.com/bower/v/ng-feathers.svg?style=flat-square)](#bower)
+[![Travis](https://shields.beevelop.com/travis/beevelop/ng-feathers.svg?style=flat-square)](https://travis-ci.org/beevelop/ng-feathers)
+[![Code Climate](https://shields.beevelop.com/codeclimate/github/beevelop/ng-feathers.svg?style=flat-square)](https://codeclimate.com/github/beevelop/ng-feathers)
+[![Gemnasium](https://shields.beevelop.com/gemnasium/beevelop/ng-feathers.svg?style=flat-square)](https://gemnasium.com/beevelop/ng-feathers)
+[![js-standard-style](https://shields.beevelop.com/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 [![Beevelop](https://links.beevelop.com/honey-badge)](https://beevelop.com)
 
 # ngFeathers :bird:
