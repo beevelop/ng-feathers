@@ -13,6 +13,6 @@
     "grunt": "^1.0.1",
     "grunt-contrib-uglify": "2.0.0",
     "grunt-standard": "^2.0.0",
-    "standard": "^7.1.2"
+    "standard": "^8.0.0"
   }
 }
