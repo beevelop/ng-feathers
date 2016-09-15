@@ -3,7 +3,9 @@ module.exports = function (grunt) {
     uglify: {
       main: {
         options: {
-          preserveComments: 'some'
+          preserveComments: function (node, comment) {
+            return comment.value.indexOf('ngFeathers') > -1
+          }
         },
         files: {
           'dist/ng-feathers.min.js': ['src/ng-feathers.js'],
