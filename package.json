@@ -1,10 +1,12 @@
 {
   "name": "ng-feathers",
-  "version": "1.5.3",
+  "version": "1.6.0",
   "description": "Feathers client for AngularJS",
   "main": "index.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "clean": "rm -r bower_components/ node_modules/",
+    "init": "npm i && bower i"
   },
   "author": "Maik Hummel <m@ikhummel.com> (https://beevelop.com)",
   "license": "MIT",
