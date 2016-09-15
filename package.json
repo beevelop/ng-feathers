@@ -1,6 +1,6 @@
 {
   "name": "ng-feathers",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "Feathers client for AngularJS",
   "main": "index.js",
   "scripts": {
