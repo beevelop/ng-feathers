@@ -1,12 +1,12 @@
 /**
  * ngFeathers
  *
- * @version 0.1.2
+ * @version 1.5.3
  * @author Maik Hummel <m@ikhummel.com>
  * @license MIT
  */
 
-/*global
+/* global
     angular, feathers, io */
 
 angular
