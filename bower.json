@@ -17,6 +17,6 @@
   ],
   "dependencies": {
     "feathers-client": "1.6.1",
-    "socket.io-client": "1.4.8"
+    "socket.io-client": "1.5.1"
   }
 }
