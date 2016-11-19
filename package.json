@@ -1,6 +1,6 @@
 {
   "name": "ng-feathers",
-  "version": "1.6.2",
+  "version": "1.7.2",
   "description": "Feathers client for AngularJS",
   "main": "index.js",
   "scripts": {
@@ -12,9 +12,9 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "1.0.1",
     "grunt-contrib-uglify": "2.0.0",
-    "grunt-standard": "^2.0.0",
-    "standard": "^8.0.0"
+    "grunt-standard": "2.0.0",
+    "standard": "8.5.0"
   }
 }
