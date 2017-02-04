@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cde88bc17ae44b37b6b4248e2aa52fde)](https://www.codacy.com/app/yo/ng-feathers?utm_source=github.com&utm_medium=referral&utm_content=beevelop/ng-feathers&utm_campaign=badger)
 [![npm](https://shields.beevelop.com/npm/v/ng-feathers.svg?style=flat-square)](https://www.npmjs.com/package/ng-feathers)
 [![Bower](https://shields.beevelop.com/bower/v/ng-feathers.svg?style=flat-square)](#bower)
 [![Travis](https://shields.beevelop.com/travis/beevelop/ng-feathers.svg?style=flat-square)](https://travis-ci.org/beevelop/ng-feathers)
