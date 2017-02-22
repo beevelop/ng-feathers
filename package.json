@@ -2,7 +2,7 @@
   "name": "ng-feathers",
   "version": "1.7.2",
   "description": "Feathers client for AngularJS",
-  "main": "index.js",
+  "main": "src/ng-feathers.js",
   "scripts": {
     "test": "grunt",
     "clean": "rm -r bower_components/ node_modules/",
