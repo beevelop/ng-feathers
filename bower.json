@@ -1,7 +1,7 @@
 {
   "name": "ng-feathers",
   "description": "Feathers client for AngularJS",
-  "main": "index.js",
+  "main": "src/ng-feathers.js",
   "authors": [
     "Maik Hummel <m@ikhummel.com> (https://beevelop.com)"
   ],
