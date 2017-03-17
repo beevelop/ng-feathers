@@ -8,6 +8,8 @@
 
 # ngFeathers :bird:
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/beevelop/ng-feathers.svg)](https://greenkeeper.io/)
+
 > :warning: Still WIP: API is unstable and might change.
 
 > [FeatherJS](http://feathersjs.com/) for plain old [AngularJS](https://angularjs.org/) (1.X)
