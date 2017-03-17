@@ -13,8 +13,8 @@
   "dependencies": {},
   "devDependencies": {
     "grunt": "1.0.1",
-    "grunt-contrib-uglify": "2.0.0",
-    "grunt-standard": "2.0.0",
-    "standard": "8.5.0"
+    "grunt-contrib-uglify": "2.2.0",
+    "grunt-standard": "3.0.3",
+    "standard": "9.0.1"
   }
 }
