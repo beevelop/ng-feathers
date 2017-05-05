@@ -20,13 +20,22 @@ window.angular.module('ngFeathers.example1', ['ngFeathers'])
         type: 'local',
         username: 'john',
         password: 'unicorn'
-      }).then(function (result) {
-        console.log('Authenticated!', result)
+      }).then(function (response) {
+        console.log('Authenticated!', response);
+        // By this point your accessToken has been stored in
+        // localstorage
+        return $feathers.passport.verifyJWT(response.accessToken);
+      }).then(function (payload) {
+        console.log('JWT Payload', payload);
+        return $feathers.service('users').get(payload.userId);
+      }).then(function (user) {
+        app.set('user', user);
+        console.log('User', app.get('user'));
+        // Do whatever you want now
       }).catch(function (error) {
-        console.error('Error authenticating!', error)
-      })
-      console.log(res)
+        console.error('Error authenticating!', error);
+      });
     }).catch(function (err) {
-      console.error(err)
-    })
-  })
+      console.error('Error authenticating!', err);
+    });
+  });
