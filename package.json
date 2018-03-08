@@ -8,7 +8,7 @@
     "clean": "rm -r bower_components/ node_modules/",
     "init": "npm i && bower i"
   },
-  "author": "Maik Hummel <m@ikhummel.com> (https://beevelop.com)",
+  "author": "Maik Hummel <hi@beevelop.com> (https://beevelop.com)",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
