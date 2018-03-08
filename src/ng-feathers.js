@@ -1,7 +1,7 @@
 /**
  * ngFeathers
  *
- * @version 1.7.2
+ * @version 3.4.3
  * @author Maik Hummel <m@ikhummel.com>
  * @license MIT
  */
@@ -34,7 +34,6 @@ angular
         $get: [
           function () {
             this.app = feathers()
-              .configure(feathers.hooks())
 
             if (useSocket) {
               this.socket = io(endpoint, socketOpts)
