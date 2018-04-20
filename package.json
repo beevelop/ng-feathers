@@ -1,6 +1,6 @@
 {
   "name": "ng-feathers",
-  "version": "1.7.2",
+  "version": "3.4.4",
   "description": "Feathers client for AngularJS",
   "main": "src/ng-feathers.js",
   "scripts": {
@@ -8,13 +8,13 @@
     "clean": "rm -r bower_components/ node_modules/",
     "init": "npm i && bower i"
   },
-  "author": "Maik Hummel <m@ikhummel.com> (https://beevelop.com)",
+  "author": "Maik Hummel <hi@beevelop.com> (https://beevelop.com)",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "1.0.1",
-    "grunt-contrib-uglify": "2.0.0",
-    "grunt-standard": "2.0.0",
-    "standard": "8.5.0"
+    "grunt": "1.0.2",
+    "grunt-contrib-uglify": "3.3.0",
+    "grunt-standard": "3.1.0",
+    "standard": "11.0.0"
   }
 }
