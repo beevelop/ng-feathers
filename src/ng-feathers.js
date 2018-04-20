@@ -1,8 +1,8 @@
 /**
  * ngFeathers
  *
- * @version 3.4.3
- * @author Maik Hummel <m@ikhummel.com>
+ * @version 3.4.4
+ * @author Maik Hummel <hi@beevelop.com>
  * @license MIT
  */
 

@@ -1,6 +1,6 @@
 {
   "name": "ng-feathers",
-  "version": "3.4.3",
+  "version": "3.4.4",
   "description": "Feathers client for AngularJS",
   "main": "src/ng-feathers.js",
   "scripts": {
